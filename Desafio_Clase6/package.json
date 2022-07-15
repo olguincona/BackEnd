@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "name": "desafio_clase6",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Felipe Olguin",
+  "license": "ISC",
+  "description": ""
+}
