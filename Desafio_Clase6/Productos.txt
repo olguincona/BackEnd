@@ -1,0 +1,17 @@
+[
+        {
+            "title": "Remera Blanca",
+            "price": "50 USD"
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_910446-MLA41933568848_052020-O.webp"
+        },
+        {
+            "title": "Remera Roja",
+            "price": "55 USD"
+            "thumbnail": "https://media.istockphoto.com/photos/red-tshirt-mockup-men-as-design-template-tee-shirt-blank-isolated-on-picture-id1354031012?k=20&m=1354031012&s=612x612&w=0&h=wG3hVNaaoDTDEFpb3Ad-O7cJribxbNXXNCcjHJTrJH8="
+        },
+        {
+            "title": "Remera Negra",
+            "price": "50 USD"
+            "thumbnail": "https://img.freepik.com/vector-premium/diseno-maqueta-camiseta-negra-blanco_92086-468.jpg"
+        }
+]
