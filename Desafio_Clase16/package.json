@@ -1,0 +1,29 @@
+{
+  "name": "desafio_clase16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "migrate": "npx knex migrate:latest",
+    "seed": "npx knex seed:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "knex": "^2.2.0",
+    "mssql": "^9.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "oracledb": "^5.4.0",
+    "pg": "^8.8.0",
+    "socket.io": "^4.5.1",
+    "sqlite3": "^5.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
