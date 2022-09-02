@@ -1,0 +1,30 @@
+{
+  "name": "desafio_clase18",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "migrate": "npx knex migrate:latest",
+    "seed": "npx knex seed:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "express": "^4.18.1",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.1",
+    "dotenv": "^16.0.1",
+    "knex": "^2.2.0",
+    "mssql": "^9.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "oracledb": "^5.4.0",
+    "pg": "^8.8.0",
+    "sqlite3": "^5.0.11"
+  }
+}
