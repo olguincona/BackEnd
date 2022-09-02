@@ -6,17 +6,16 @@
   "scripts": {
     "build": "webpack ./mensaje1.js ./mensaje2.js ./mensaje3.js --mode=production",
     "watch": "webpack ./mensaje1.js ./mensaje2.js ./mensaje3.js --mode=development -w",
-    "start": "node ."
+    "start": "node .",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
-    "socket.io": "^4.5.1"
+    "express": "^4.18.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }
